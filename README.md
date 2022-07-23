@@ -28,4 +28,7 @@ The dataset contains all the transactions occurring between 2010 and 2011 for a 
 - A stacking model
 
 ## Results
+
+<img scr='images/Model performance'>
+<img scr='images/ROC Curve'>
  
