@@ -29,6 +29,6 @@ The dataset contains all the transactions occurring between 2010 and 2011 for a 
 
 ## Results
 
-<img scr="images/Model performance.png">
-<img scr="images/ROC Curve.png">
+<img scr="images/Model%20performance.png">
+<img scr="images/ROC%20Curve.png">
  
