@@ -29,6 +29,15 @@ The dataset contains all the transactions occurring between 2010 and 2011 for a 
 
 ## Results
 
-<img scr="images/Model%20performance.png">
-<img scr="images/ROC%20Curve.png">
+<img src="images/Model%20performance.png" width = "1000">
+
+Comments: 
+- In predicting retention rate, we prefer precision (to reduce false positive) when we want to maximize retetion rate, and prefer recall (to reduce false negative) when we want to reduce the retention costs. Based on the table summary, Adaboost is the best model in terms of precision. Extra Tree and SVM, while do not perform well in terms of Precision compared to others, are able to achieve perfect Recall and thus gain the highest scores in F1 score.
+- All models achives a higher score on Recall than Precision.
+- Stacking model does not clearly outperform others with respect to any metrics. This indicates that a more complex model is not necessarily better.
+- Decision Tree shows a sign of overfitting as its scores on Test dataset are lower than those for train dataset.
+
+<img src="images/ROC%20Curve.png" width = "500" >
+
+
  
